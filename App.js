@@ -22,16 +22,21 @@ const instructions = Platform.select({
 export default class App extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+      // <View style={styles.container}>
+      //   <Text style={styles.welcome}>
+      //     Welcome to React Native!
+      //   </Text>
+      //   <Text style={styles.instructions}>
+      //     To get started, edit App.js
+      //   </Text>
+      //   <Text style={styles.instructions}>
+      //     {instructions}
+      //   </Text>
+      // </View>
+      <View>
+        <View style={{ width: 50, height: 50, backgroundColor: 'powderblue' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: 'skyblue' }} />
+        <View style={{ width: 150, height: 150, backgroundColor: 'steelblue' }} />
       </View>
     );
   }
